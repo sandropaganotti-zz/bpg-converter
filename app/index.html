@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Converting BPG images to PNG using ServiceWorker</title>
+    </head>
+    <body>
+        
+        <img src="lena512color.bpg.png">
+
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('./worker.js', {scope: './'});
+            }
+        </script>        
+    </body>
+</html>

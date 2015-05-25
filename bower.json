@@ -1,0 +1,27 @@
+{
+  "name": "bpg-converter",
+  "version": "1.0.0",
+  "homepage": "https://sandropaganotti.github.io/bpg-converter/",
+  "authors": [
+    "Sandro Paganotti <sandro.paganotti@gmail.com>"
+  ],
+  "description": "convert bgp images to jpg using service worker",
+  "main": "index.html",
+  "keywords": [
+    "serviceworker",
+    "bpg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "chai": "~1.10.0"
+  }
+}
