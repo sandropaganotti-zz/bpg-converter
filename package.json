@@ -2,9 +2,9 @@
   "name": "bpg-converter",
   "version": "1.0.0",
   "description": "BPG converter is a library that allows you to use the new BPG image format transparently converting all the bpg images to jpg",
-  "main": "app/example.html",
+  "main": "app/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "https://sandropaganotti.github.io/bpg-converter/app/test/runner.html"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/sandropaganotti/bpg-converter/issues"
   },
-  "homepage": "https://sandropaganotti.github.io/bpg-converter/",
+  "homepage": "https://github.com/sandropaganotti/bpg-converter",
   "devDependencies": {
     "bower": "^1.3.12",
     "grunt": "^0.4.5",
