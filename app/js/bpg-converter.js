@@ -5,9 +5,6 @@ onfetch = function(evt){
             fetch(url.substr(0,url.length - 4)).then(function(res){
                 return res.arrayBuffer();  
             }).then(function(buffer) {
-                
-                console.log(buffer);
-                console.log(buffer.byteLength);
                 var converter = new Converter(window.BPGDecoder, window.PNGencoder);
                 var png = converter.convert(buffer);
                 return new Response(png, { headers: {"Content-Type": "image/png"} });
